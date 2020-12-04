@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Sumar pares for",
+      "setup": "npm install",
+      "run": "npm run test sumarParesFor.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Contar impares for",
+      "setup": "",
+      "run": "npm run test contarImparesFor.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Sumar pares while",
+      "setup": "",
+      "run": "npm run test sumarParesWhile.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Contar impares while",
+      "setup": "",
+      "run": "npm run test contarImparesWhile.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Sumar pares do",
+      "setup": "",
+      "run": "npm run test sumarParesDo.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Contar impares do",
+      "setup": "",
+      "run": "npm run test contarImparesDo.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
