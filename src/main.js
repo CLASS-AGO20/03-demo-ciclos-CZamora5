@@ -14,7 +14,7 @@ export default class App {
         if(inicio>fin){
             inicio += fin;
             fin = inicio - fin;
-            inicio = inicio -fin;
+            inicio = inicio - fin;
         }
         let total = 0;
         for(let i=inicio; i<=fin; i++){
@@ -33,6 +33,22 @@ export default class App {
                 total += contador;
             }
             contador++;
+        }
+        return total;
+    }
+
+    contarImparesWhile(inicio, fin){
+        if(inicio>fin){
+            inicio += fin;
+            fin = inicio - fin;
+            inicio = inicio - fin;
+        }
+        let total = 0;
+        let contador = inicio;
+        while(contador<=fin){
+            if(i%2==1){
+                total++;
+            }
         }
         return total;
     }
