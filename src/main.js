@@ -53,6 +53,18 @@ export default class App {
         }
         return total;
     }
+
+    sumarParesDo(){
+        let total = 0;
+        let contador = 1;
+        do{
+            if(contador%2 == 0){
+                total += contador;
+            }
+            contador++;
+        }while(contador<=20)
+        return total;
+    }
 }
 
 let app = new App();
