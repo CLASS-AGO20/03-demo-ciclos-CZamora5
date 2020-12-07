@@ -113,3 +113,11 @@ console.log(`En el intervalo [${2*m},${2*n}] hay ${app.contarImparesWhile(2*m, 2
 //Prueba del método sumarParesDo
 console.log(`Probando método sumarParesDo()`);
 console.log(`La suma de los números pares entre el número 1 y el número 20 es ${app.sumarParesDo()}`);
+
+//Prueba del método contarImparesDo
+let x = 12;
+let y = 100;
+console.log(`Probando método contarImparesDo(inicio, fin)`);
+console.log(`En el intervalo [${x},${y}] hay ${app.contarImparesDo(x, y)} números impares`);
+console.log(`En el intervalo [${0},${3*x}] hay ${app.contarImparesDo(0, 3*x)} números impares`);
+console.log(`En el intervalo [${2*x},${2*y}] hay ${app.contarImparesDo(2*x, 2*y)} números impares`);
