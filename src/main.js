@@ -62,7 +62,24 @@ export default class App {
                 total += contador;
             }
             contador++;
-        }while(contador<=20)
+        }while(contador<=20);
+        return total;
+    }
+
+    contarImparesDo(inicio, fin){
+        if(inicio>fin){
+            inicio += fin;
+            fin = inicio - fin;
+            inicio = inicio - fin;
+        }
+        let total = 0;
+        let contador = inicio;
+        do{
+            if(contador%2==1){
+                total++;
+            }
+            contador++;
+        }while(contador<=fin);
         return total;
     }
 }
