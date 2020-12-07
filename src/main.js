@@ -24,6 +24,18 @@ export default class App {
         }
         return total;
     }
+
+    sumarParesWhile(){
+        let total = 0;
+        let contador = 1;
+        while(contador<=20){
+            if(contador%2==0){
+                total += contador;
+            }
+            contador++;
+        }
+        return total;
+    }
 }
 
 let app = new App();
