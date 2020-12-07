@@ -121,3 +121,4 @@ console.log(`Probando método contarImparesDo(inicio, fin)`);
 console.log(`En el intervalo [${x},${y}] hay ${app.contarImparesDo(x, y)} números impares`);
 console.log(`En el intervalo [${0},${3*x}] hay ${app.contarImparesDo(0, 3*x)} números impares`);
 console.log(`En el intervalo [${2*x},${2*y}] hay ${app.contarImparesDo(2*x, 2*y)} números impares`);
+console.log(`En el intervalo [${x+3},${2*y+x}] hay ${app.contarImparesDo(x+3, 2*y+x)} números impares`);
